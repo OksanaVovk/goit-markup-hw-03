@@ -28,6 +28,15 @@ body {
   margin: 0 auto;
   outline: 2px solid tomato;
 }
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.work {
+  padding-top: 0;
+  padding-bottom: 94px;
+} 
 /* логотип */
 .logo {
   color: var(--logo-color);
