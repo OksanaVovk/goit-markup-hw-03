@@ -44,6 +44,9 @@ body {
 
 /* логотип */
 .logo {
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: var(--logo-color);
   font-family: Raleway, sans-serif;
   font-weight: bold;
@@ -58,6 +61,7 @@ body {
 }
 .logo.footer {
   margin-bottom: 20px;
+  padding: 0;
   color: var(--background-color);
 }
 
@@ -186,6 +190,10 @@ background-color: var(--banner-color);
   display: flex;
 }
 
+.specifics-item{
+  width: 270px;
+}
+
 .specifics-item:not(:last-child){
   margin-right: 30px;
 } 
@@ -286,8 +294,17 @@ img{
   padding-bottom: 60px;
 }
 
-.contacts-footer .link {
+.contacts-footer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.contacts-footer .item:not(:last-child){
   margin-bottom: 9px;
+}
+
+.contacts-footer .link {
   color: var(--footer-contacts-color);
   font-style: normal;
   font-size: 14px;
